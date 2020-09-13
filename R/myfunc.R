@@ -1,8 +1,12 @@
-# myfunc1 = function(a, b)
-# {
-#   c<-a+b
-#   return(c)
-# }
+#' @param a A number.
+#' @param b A number.
+#'
+#' #' Take two numbers a and b, and calculate euclidean distance between them. This basically
+#' calculates greatest common divisor of those numbers. The calculation continues until remainder is 0.
+#'
+#' @return The greatest common divisor of \code{a} and \code{b}.
+#'
+#' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 
 
 # name <- "Syeda Aqsa Iftikhar"
@@ -12,9 +16,9 @@
 euclidean = function(a,b)
 {
   while(b) {
-    temp = b
+    new = b
     b = a %% b
-    a = temp
+    a = new
   }
   return(a)
 }
