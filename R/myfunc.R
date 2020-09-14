@@ -7,7 +7,10 @@
 #' @return The greatest common divisor of \code{a} and \code{b}.
 #'
 #' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
-
+#'
+#' @examples
+#' euclidean(123612, 13892347912)
+#' euclidean(100, 1000)
 
 # name <- "Syeda Aqsa Iftikhar"
 # liuid <- "syeif776"
@@ -22,7 +25,6 @@ euclidean = function(a,b)
   }
   return(a)
 }
-# euclidean(123612, 13892347912)
-# euclidean(100, 1000)
+
 
 
