@@ -1,7 +1,9 @@
+#' @name Euclidean_function
+#'
 #' @param a A number.
 #' @param b A number.
 #'
-#' #' Take two numbers a and b, and calculate euclidean distance between them. This basically
+#' @description Take two numbers a and b, and calculate euclidean distance between them. This basically
 #' calculates greatest common divisor of those numbers. The calculation continues until remainder is 0.
 #'
 #' @return The greatest common divisor of \code{a} and \code{b}.
@@ -11,6 +13,7 @@
 #' @examples
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
+#' @export
 
 # name <- "Syeda Aqsa Iftikhar"
 # liuid <- "syeif776"
