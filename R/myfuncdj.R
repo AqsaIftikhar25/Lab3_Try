@@ -6,6 +6,7 @@
 #' @param v2 A number.
 #' @param c A number.
 #' @references \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
+#' @export
 
 
 
