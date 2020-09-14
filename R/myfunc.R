@@ -1,4 +1,5 @@
-#' @name Euclidean_function
+#' myfunc
+#' @name EuclideanAlgo
 #'
 #' @param a A number.
 #' @param b A number.
