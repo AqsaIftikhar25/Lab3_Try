@@ -6,7 +6,7 @@ Author: Aqsa Iftikhar
 Maintainer: The package maintainer <aqsaciit@gmail.com>
 Description: This package is actually built to maintain lab 3 assignment consisting of
     all configuration of Git, Github and Travis.
-License: What license is it under?
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1

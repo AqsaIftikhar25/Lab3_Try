@@ -4,7 +4,7 @@
 #'
 #' @param v1 A number.
 #' @param v2 A number.
-#' @param c A number.
+#' @param w A number.
 #' @references \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
 #' @export
 

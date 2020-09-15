@@ -16,7 +16,7 @@ wiki_graph
 
 \item{v2}{A number.}
 
-\item{c}{A number.}
+\item{w}{A number.}
 }
 \description{
 Data Frame for dijkstra
