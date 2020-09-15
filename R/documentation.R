@@ -1,14 +1,15 @@
-#' data from Wikipedia
+#' dijkstra Algorithm
 #'
-#' a dataset containing two variables
+#' @name dijkstra Algorithm
 #'
-#'@format a data frame with 18 lines and 3 variables:
-#'\describe{
-#'\item{v1}{v1...}
-#'\item{V2}{v2...}
-#'\item{W}{W...}
+#' @description The algorithm takes a graph and an initial node and calculates the shortest path from the
+#' initial node to every other node in the graph.
+#'
+#' @param a v1 number.
+#' @param b v2 number.
+#' @param b w number.
 #'
 #'}
-#'@source \url{http://www.diamondse.info/}
+#'@reference \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
 #'
 "wiki_graph"
